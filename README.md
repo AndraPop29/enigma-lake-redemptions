@@ -1,1 +1,1 @@
-# enigma-lake-redemptions
+Enigma Lake: User balance + redeem page
