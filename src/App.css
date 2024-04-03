@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #11315D;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.round-container {
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  background: #1D3E6B;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
+  gap: 20px 30px;
+  box-sizing: border-box;
+}
+
+.column-stack-container {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  gap: 20px 30px;
+}
+
+.row-stack-container {
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 20px 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.icon-value {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  font-weight: normal;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sweeps-coin-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  height: 30px;
+  padding: 10px 20px;
+  background: #2B4C79;
+  border-radius: 30px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  gap: 5px;
+  background: #11315D;
+  height: 30px;
+  width: 300px;
+  border-radius: 50px;
+}
+
+.green-circle {
+  display: flex;
+  background: #0DC10D;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+
+.orange-circle {
+  display: flex;
+  background: #F0AD4E;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
 }
